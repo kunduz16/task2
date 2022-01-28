@@ -8,8 +8,9 @@
         **Пример: "Номер вашей карты: **********1245"** */
 
     // № 1
-    const replacementSymbol = 'ddd@bbb@ccc';
-    console.log(replacementSymbol.replace(/g/g, '!'));
+    let text = "ddd@bbb@ccc";
+    let newText = text.replaceAll("@", "!");
+    console.log(newText);
 
     // № 2
     console.log('js'.toUpperCase());
