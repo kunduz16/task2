@@ -23,10 +23,8 @@
     console.log(numberSymbol.length);
 
     // № 5
-    document.write("<strong>Задача №2/5 </strong><br>");
-    let numCard = prompt("Номер вашей карты: (16)");
-    let myCard = ("************+numCard.slice(12)");
-    document.write('"Номер вашей карты: **********1245"');
+    const userCard = prompt('Введите номер кредитной карты:', '');
+    document.write(`Номер вашей карты:  ${userCard.slice(0, 0).concat("************")} ${userCard.slice(12, 16)}`);
 
 
     
